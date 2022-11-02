@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.webp">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <title>SMM Кураторство</title>
+
+</head>
+
+<body>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '369733337416153');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=369733337416153&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(89110994, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89110994" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <svg style="width:255px; height:25px;">
+                        <use href="css/sprite.svg#logo"></use>
+                    </svg>
+                </div>
+                <nav class="nav">
+                    <div class="nav__links">
+                        <a href="#" class="nav__link" data-scroll="#technology">Система</a>
+                        <a href="#" class="nav__link" data-scroll="#results">Результати</a>
+                        <a href="#" class="nav__link" data-scroll="#discount">Спецпропозиція</a>
+                        <a href="#" class="nav__link" data-scroll="#consultacion">Консультація</a>
+                    </div>
+                </nav>
+                <div class="header__phone">
+                    <div class="header__phone-inner">
+                        <img src="assets/img/header_phone.svg" alt="">
+                        <a href="tel:+380932931865" class="header__phone-number">+38 093 293 18 65</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__text">
+                        <div class="intro__headtitle">
+                            <img src="assets/img/intro_headtitle.svg" alt="">
+                            <p>Тільки для власників бізнесу </p>
+                        </div>
+                        <div class="intro__title">
+                            <div class="pc_vis"><span>Допомагаємо підприємцям</span><br>покращити показники попиту,<br>
+                                збільшити щоденну кількість<br> замовлень і прибуток Вашого бізнесу<br> з ринку України,
+                                Європи або США</div>
+                            <div class="mob_vis"><span>Допомагаємо покращити попит,</span><br>значно збільшити
+                                щоденну<br>
+                                к-сть замовлень і прибуток<br>
+                                з ринку України, Європи або США</div>
+                        </div>
+                        <div class="intro__subtitle">
+                            <span class="pc_vis">Все це за рахунок унікальної системи залучення клієнтів,<br>
+                                яка розробляється індивідуально під Ваш бізнес,<br>
+                                після впровадження виконує встановлені цілі по замовленням<br>
+                                і працює на результат 24/7.</span>
+                            <span class="mob_vis">Все це за рахунок системи залучення клієнтів,<br>
+                                яка розробляється під Ваш бізнес, <br>
+                                після впровадження виконує встановлені цілі <br>
+                                по замовленням і працює на результат 24/7.</span>
+                        </div>
+                        <a href="#" data-modal="#popup" class="intro__button">Отримати безкоштовну консультацію</a>
+                    </div>
+                    <div class="intro__image">
+                        <img class="responsive" src="assets/img/intro__phone.webp" alt="">
+                        <div class="scroll__down">
+                            <p>Гортайте нижче</p>
+                            <img src="assets/img/scroll_down.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technology" id="technology">
+            <div class="container">
+                <div class="technology__inner">
+                    <div class="technology__sells">
+                        <img class="technology__graphic responsive img_size" src="assets/img/technology_graphic.svg"
+                            alt="">
+                    </div>
+                    <div class="technology__list">
+                        <div class="technology__title">
+                            Ми розробили систему, яка <span>збільшує виручку бізнесу</span> та кількість клієнтів
+                            із соц. мереж
+                        </div>
+                        <img class="mobiletech responsive" src="assets/img/mobiletech.webp" alt="">
+                        <ul class="technology__items">
+                            <li class="technology__item">
+                                <p>
+                                    Система складається із <span>6 етапів.</span></p>
+                            </li>
+                            <li class="technology__item">
+                                <p>Ми разом адаптуємо бізнес модель та оновимо маркетинг Вашої компанії, щоб Ви могли
+                                    <span> працювати в умовах війни. </span>
+                                </p>
+                            </li>
+                            <li class="technology__item">
+                                <p>Далі налаштуємо всі необхідні процеси, щоб Ви почали отримували<span> нові замовлення
+                                        з закордону та в Україні </span> в необхідній кількості.</p>
+                            </li>
+                            <li class="technology__item">
+                                <p><span>Укладаємо договір</span>, де прописуємо прибуток із соц. мереж, який Ви
+                                    отримаєте від нашої співпраці.
+                                </p>
+                            </li>
+                            <li class="technology__item">
+                                <p>За 8 років нашу послугу застосували для свого бізнесу більше <span> 2400
+                                        підприємців.</span></p>
+
+                            </li>
+                            <li class="technology__item">
+                                <p>Доступна <span>зручна розстрочка та тестовий період.</span></p>
+                            </li>
+                            <li class="technology__item">
+                                <p>На період війни, ми підберемо <span>індивідуальні умови по вартості,</span> в
+                                    залежності від проблем Вашого бізнесу.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Marquiz script start -->
+        <script>
+            (function (w, d, s, o) {
+                var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js'; j.onload = function () {
+                    if (document.readyState !== 'loading') Marquiz.init(o);
+                    else document.addEventListener("DOMContentLoaded", function () {
+                        Marquiz.init(o);
+                    });
+                };
+                d.head.insertBefore(j, d.head.firstElementChild);
+            })(window, document, 'script', {
+                host: '//quiz.marquiz.ru',
+                region: 'eu',
+                id: '611bdcc3f2559a0040484c34',
+                autoOpen: false,
+                autoOpenFreq: 'once',
+                openOnExit: false,
+                disableOnMobile: false
+            }
+            );
+        </script>
+        <!-- Marquiz script end -->
+
+
+        <section class="cooperation" id="results">
+            <div class="container">
+                <div class="cooperation__inner">
+                    <div class="cooperation__suptitle">Ефективний досвід у 128 сферах бізнесу</div>
+                    <div class="cooperation__title"><span>Результати</span> співпраці з деякими нашими
+                        клієнтами:
+                    </div>
+                    <div class="cooperation__slider">
+                        <div class="slider">
+                            <img class="pcslider responsive" src="assets/img/slider1.webp" alt="">
+                            <img class="mobileslider responsive" src="assets/img/1-mob.svg" alt="">
+                        </div>
+                        <div class="slider">
+                            <img class="pcslider responsive" src="assets/img/slider2.webp" alt="">
+                            <img class="mobileslider responsive" src="assets/img/mobileslider5.svg" alt="">
+                        </div>
+                        <div class="slider">
+                            <img class="pcslider responsive" src="assets/img/slider3.webp" alt="">
+                            <img class="mobileslider responsive" src="assets/img/3-mob.svg" alt="">
+                        </div>
+                        <div class="slider">
+                            <img class="pcslider responsive" src="assets/img/slider4.webp" alt="">
+                            <img class="mobileslider responsive" src="assets/img/mobileslider2.svg" alt="">
+                        </div>
+                        <div class="slider">
+                            <img class="pcslider responsive" src="assets/img/slider5.webp" alt="">
+                            <img class="mobileslider responsive" src="assets/img/mobileslider4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case">
+            <div class="container">
+                <div class="case__inner">
+                    <div class="case__sells">
+                        <img class="case__graphic responsive" src="assets/img/morecase-2.webp" alt="">
+                    </div>
+                    <div class="case__text">
+                        <div class="case__title">Бажаєте ознайомитися<span> з іншими кейсами?</span></div>
+                        <div class="case__subtitle">Залишайте заявку нижче і ми відправимо Вам повноцінну базу проектів
+                            із реальними результатами наших клієнтів + відгуки про нашу роботу з контактами підприємців.
+                        </div>
+                        <a href="#" data-modal="#popup" class="case__button">Хочу більше кейсів</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="try" id="discount">
+            <div class="container">
+                <div class="try__inner">
+                    <div class="try__text">
+                        <h2>Спецпропозиція до <span id="dateCounter"></span></h2>
+                        <div class="try__title">Спробуйте перший етап нашої послуги <span>за 28 доларів</span>
+                        </div>
+                        <div class="try__item">
+                            <div class="try__number">01</div>
+                            <p>
+                                За 3 дні розробимо стратегію, яка допоможе впровадити нашу систему у Вашому бізнесі,
+                                суттєво покращити попит та вийти на необхідний рівень замовлень із соц. мереж.
+                            </p>
+                        </div>
+                        <div class="try__item">
+                            <div class="try__number">02</div>
+                            <p>
+                                Якщо Вам сподобається стратегія, укладемо договір, де буде прописаний Ваш прибуток із
+                                соц. мереж за підсумком співпраці. Далі втілимо її в Вашому бізнесі та доведемо до
+                                узгодженого результату.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="try__director">
+                        <img class="try__director-pc responsive" src="assets/img/trydirector.webp" alt="">
+                        <img class="try__director-mob responsive" src="assets/img/trydirector-mobsv.webp" alt="">
+                    </div>
+                </div>
+                <div class="bgtext spec">
+                    Спецпропозиція
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <section class="form" id="consultacion">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__text">
+                    <div class="form__suptitle">
+                        <svg>
+                            <use href="css/sprite.svg#suptitlehappy"></use>
+                        </svg>
+                        <p>Давайте познайомимось краще</p>
+                    </div>
+                    <div class="form__title">Заповніть форму та отримайте<br> <span> безкоштовну консультацію</span> без
+                        зобов'язань
+                    </div>
+                    <ul class="form__items">
+                        <li class="form__item">
+                            <span>
+                                Ми поділимося конкретним планом - як саме Вашому бізнесу підвищити попит через залучення
+                                нових клієнтів в Україні, Європі та США.
+                            </span>
+                        </li>
+                        <li class="form__item">
+                            <span>
+                                Розкажемо, як працює зараз наша система та за рахунок яких дій вона впливає на прибуток
+                                конкретного бізнесу.
+
+                            </span>
+                        </li>
+                        <li class="form__item">
+                            <span>
+                                Після консультації, Ви отримаєте документ з планом робіт по Вашому проекту, а також
+                                документ з детальними показниками наших клієнтів та їх відгуки.
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-text-top">
+                    <form class="form__main">
+                        <div class="form__name">
+                            <label for="name">Ваше ім'я:</label>
+                            <input type="text" id="name" name="name" placeholder="Олександр" maxlength="15" required>
+                            <img src="assets/img/formuser.svg" alt="">
+                        </div>
+                        <div class="form__telephone">
+                            <label for="name">Телефон:</label>
+                            <input type="text" id="tel" name="tel" maxlength="25" placeholder="+38 (000)" required>
+                            <img src="assets/img/formtelephone.svg" alt="">
+                        </div>
+                        <div class="form__buttons">
+                            <input type="submit" value="Отримати консультацію" class="form__button">
+                            <a href="#" data-modal="#politic" class="form__politic">Політика конфіденційності</a>
+                        </div>
+                    </form>
+                    <div class="text__top">Безкоштовна</div>
+                    <div class="text__right">консультація</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <svg style="width:255px; height:25px;">
+                        <use href="css/sprite.svg#logo"></use>
+                    </svg>
+                    © 2015-2022 Всі права захищені
+                </div>
+                <a href="#" data-modal="#info" class="footer__info">Інформація про регістрацію</a>
+                <div class="footer__numbers">
+                    <img src="assets/img/header_phone.svg" alt="">
+                    <div class="numbers">
+                        <a href="tel:+3806839348603">+38 093 293 18 65</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class='popup' id='popup'>
+        <div class="container">
+            <div class='popup__body'>
+                <div class='popup__content'>
+                    <a href='#' class='popup__close' data-close="">
+                        <svg>
+                            <use href="css/sprite.svg#closepopup"></use>
+                        </svg>
+                    </a>
+
+
+                    <form class="form2">
+                        <div class="popup__title">Заповніть поля нижче та<br>отримайте безкоштовну консультацію
+                        </div>
+                        <div class="popup__name">
+
+                            <label for="name">Ваше ім’я :</label>
+                            <input type="text" id="namepopup" name="name" placeholder="Олександр" maxlength="15"
+                                required>
+                            <img src="assets/img/formuser.svg" alt="">
+                        </div>
+                        <div class="popup__telephone">
+                            <label for="name">Телефон:</label>
+                            <input type="text" id="telpopup" name="tel" maxlength="25" placeholder="+38 (000) "
+                                required>
+                            <img src="assets/img/formtelephone.svg" alt="">
+                        </div>
+                        <div class="popup__buttons">
+                            <div class="checkbox__popup">
+                                <input type="checkbox" id="iagree" name="scales" checked required>
+                                <label for="iagree">Підтверджую, що я власник бізнесу</label>
+                            </div>
+                            <input type="submit" value="Отримати консультацію" class="form__button">
+                            <a href="#" data-modal="#politic" class="popup__politic">Політика конфіденційності
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='thankyou' id='thankyou'>
+        <div class="container">
+            <div class='thankyou__body'>
+                <div class='thankyou__content'>
+                    <a href='#' class='thankyou__close' data-close>
+                        <svg>
+                            <use href="css/sprite.svg#closepopup"></use>
+                        </svg>
+                    </a>
+                    <svg>
+                        <use href="css/sprite.svg#logo"></use>
+                    </svg>
+                    <div class="thankyou__title">
+                        Дякуємо, що залишили заявку.
+                    </div>
+                    <div class="thankyou__subtitle">
+                        В найближчий час з Вами зв’яжеться наш менеджер. До зв'язку!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='politic' id='politic'>
+        <div class="container">
+            <div class='politic__body'>
+                <div class='politic__content'>
+                    <div class="politic__head">
+                        Політика конфіденційності
+                        <a href='#' class='politic__close' data-close>
+                            <svg>
+                                <use href="css/sprite.svg#closepopup"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="politic__main"
+                        style="height:400px;background: #fff;  overflow-x: scroll;overflow-y: scroll;">
+                        <p>Політика конфіденційності містить пояснення про те, як використовується інформація, яку Ви
+                            надаєте на сайті, а також контактна інформація про нас, якщо у Вас виникнуть питання та
+                            проблеми.</p><br>
+                        <p>1. Какая информация нам необходима? Ваше имя и номер телефона. Для того, чтобы лучше понять
+                            Ваш проект и сделать вам предложение, мы зададим вам некоторые уточняющие вопросы - для
+                            этого нам также нужен контакт для связи. В том случае, если Вы предоставляете нам чужие
+                            персональные данные, обязательно получите разрешение соответствующих лиц. Убедитесь, что Вы
+                            предоставляете правильные и точные сведения.</p><br>
+                        <p>2. Яка інформація нам потрібна? Ваше ім'я та номер телефону. Для того, щоб краще зрозуміти
+                            Ваш проект і зробити Вам пропозицію, ми задамо деякі уточнюючі питання - для цього нам також
+                            потрібен контакт для зв'язку. Якщо Ви надаєте нам чужі персональні дані, обов'язково
+                            отримайте дозвіл відповідних осіб. Переконайтеся, що Ви надаєте правильні та точні дані.</p>
+                        <br>
+                        <p>3. Ідентифікаційні файли (cookies) Наш сайт містить ідентифікаційні файли, так звані cookies.
+                            Cookies є невеликими текстовими файлами, що надсилаються на комп'ютер відвідувача сайту для
+                            обліку його дій. Cookies використовуються на нашому сайті для персоналізації обліку
+                            відвідувань, вивчення поведінки відвідувачів на сайті та реєстрації їхніх дій. Ви можете
+                            вимкнути використання cookies у налаштуваннях браузера. Однак, слід враховувати, що деякі
+                            функції будуть недоступні або можуть працювати некоректно.</p><br>
+                        <p>4. Безпека. Ми вживаємо розумних заходів для мінімізації можливості втрати, крадіжки,
+                            недобросовісного використання, несанкціонованого доступу до Вашої персональної інформації,
+                            видалення, зміни або її розкриття. У той самий час ми не можемо гарантувати абсолютного
+                            усунення ризику несанкціонованого зловживання персональної інформацією. Переконливо просимо
+                            Вас уважно підійти до зберігання паролів до облікових записів і не повідомляти їх будь-кому
+                            (у випадку, якщо йдеться про продукти, що містять паролі доступу). Негайно зв'яжіться з
+                            нами, якщо стане відомо про порушення інформаційної безпеки (наприклад, несанкціоноване
+                            використання Вашого пароля).</p><br>
+                        <p>5. Діти. Ми повністю поділяємо настороженість батьків щодо використання персональної
+                            інформації про їх дітей. Просимо відвідувачів молодше 14 років отримати дозвіл батьків або
+                            опікунів, перш ніж надавати будь-яку персональну інформацію. Ми не збираємо інформацію про
+                            дітей навмисно. Якщо нам стане відомо про те, що була отримана персональна інформація про
+                            дитину, яка не досягла 14-річного віку, ми прийдемо до заходів для видалення такої
+                            інформації в максимально короткі термін.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='info' id='info'>
+        <div class="container">
+            <div class='info__body'>
+                <div class='info__content'>
+                    <div class="info__head">
+                        Інформація про реєстрацію
+                        <a href='#' class='info__close' data-close>
+                            <svg>
+                                <use href="css/sprite.svg#closepopup"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="info__main">
+                        ФОП Фриз Іван Олегович<br><br>
+
+                        Код КВЕД 63.91<br><br>
+
+                        14017, Чернігівська обл., місто Чернігів, пр-т. Перемоги 139, оф. 742<br><br>
+
+                        ІПН: 3285313393<br><br>
+
+                        Пошта: <a href="mailto:smmkuratorstvo@gmail.com">smmkuratorstvo@gmail.com</a><br><br>
+
+                        Більш розгорнуту інформацію можна отримати у “Єдиному державному реєстрі юридичних осіб та
+                        фізичних осіб-підприємців”
+                        :
+                        <a target="_blank"
+                            href="https://usr.minjust.gov.ua/ua/freesearch">https://usr.minjust.gov.ua/ua/freesearch</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Jquerry -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/form.js"></script>
+
+
+
+    <script>
+        var element = document.getElementById('tel');
+        var maskOptions = {
+            mask: '+{38} (000) 000-00-00'
+        };
+        var mask = IMask(element, maskOptions);
+
+        var element = document.getElementById('telpopup');
+        var maskOptions = {
+            mask: '+{38} (000) 000-00-00'
+        };
+        var mask = IMask(element, maskOptions);
+    </script>
+
+</body>
+
+</html>
